@@ -1,0 +1,30 @@
+{
+  "name": "technical-challenge",
+  "version": "1.0.0",
+  "description": "Setup for my technical challenge at Granular",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "npm-watch",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "watch": {
+    "start": "**/*.js",
+    "test": "**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "mocha": "^6.1.4",
+    "npm-watch": "^0.6.0",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
